@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+.exemplo1 {
+    width: 500px;
+    height: 200px;
+    background: blue;
+    background:linear-gradient(white, blue, orange);
+    background:-moz-linear-gradiente(white, blue);
+    background:-o-linear-gradient(white, blue);
+}
+
+.exemplo2 {
+    width: 500px;
+    height: 200px;
+    background: blue;
+    background:linear-gradient(-75deg, white, blue);
+}

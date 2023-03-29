@@ -1,0 +1,22 @@
+input, a {
+    display: block;
+}
+a[href^="https"] {
+    background-color: #0000FF;
+}
+
+a[href^="http"] {
+    background-color: #0f0f0f
+}
+
+a[href*="economia"] {
+    background-color: #ff0000;
+}
+
+a[href*="futebol"] {
+    background-color: #00FF00;
+}
+
+a[href=""] {
+    background-color: #123;
+}

@@ -1,0 +1,7 @@
+body {
+    margin: 20px;
+    height: 30px;
+}
+div:empty {
+    background-color: #ff0000;
+}
