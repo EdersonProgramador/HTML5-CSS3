@@ -1,0 +1,10 @@
+CSS Grid é uma tecnologia de layout em CSS que permite criar layouts de página complexos e flexíveis com facilidade. 
+Com o CSS Grid, você pode dividir a página em linhas e colunas e, em seguida, posicionar os elementos do conteúdo em células específicas dentro dessa grade. 
+Isso permite que você crie layouts responsivos que se adaptam a diferentes tamanhos de tela e dispositivos.
+
+
+O CSS Grid é baseado em uma grade bidimensional, o que significa que você pode posicionar elementos em linhas e colunas simultaneamente. 
+Ele oferece muitos recursos poderosos, como a capacidade de definir a largura e a altura de linhas e colunas individuais, definir áreas de grade nomeadas e controlar a sobreposição de elementos.
+
+
+O CSS Grid é suportado na maioria dos navegadores modernos, e é uma das melhores ferramentas para criar layouts responsivos e personalizados em aplicações web.
