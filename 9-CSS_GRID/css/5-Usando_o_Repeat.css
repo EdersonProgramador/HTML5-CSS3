@@ -1,13 +1,13 @@
 .container {
-    width: 700px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 300px);
     grid-gap: 10px;
 }
+
 .item {
-    background-color: blue;
+    background-color: #0000ff;
     border-radius: 10px;
     padding: 20px;
-    color: aliceblue;
+    color: #fff;
     font-size: 20px;
 }
