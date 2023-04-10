@@ -15,5 +15,15 @@
 }
 
 .item1 {
-    grid-column: 1 / span 3;
+    /*
+    1. grid-row-start
+    2. grid-column-start
+    3. grid-row-end
+    4. grid-column-end
+    */
+    grid-area: 1 / 1 / 4 / 3;
+}
+
+.item6 {
+    grid-area: 4 / 2 / 6 / 4;
 }
