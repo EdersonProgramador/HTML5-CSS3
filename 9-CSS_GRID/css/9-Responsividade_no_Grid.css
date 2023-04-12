@@ -2,12 +2,7 @@
     background-color: #ccc;
     display: grid;
     gap: 10px;
-    grid-template-areas: 
-        "header header header header"
-        "menu content content content"
-        "ad content content content"
-        "footer footer footer footer"
-    ;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .item {
@@ -18,25 +13,6 @@
     font-size: 20px;
 }
 
-header {
-    grid-area: header;
-}
-nav {
-    grid-area: menu;
-}
-section {
-    grid-area: footer;
-}
-.ad {
-    grid-area: ad;
-}
+@media (max-width) {
 
-@media (max-width: 750px) {
-   .container {
-    grid-template-areas: 
-        "header header header menu"
-        "content content content content"
-        "footer footer footer footer ad"
-    ;
-   } 
 }
